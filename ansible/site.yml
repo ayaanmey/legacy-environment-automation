@@ -1,0 +1,11 @@
+---
+- name: Configure nginx service
+  hosts: web
+  become: true
+  roles:
+    - role: nginx_service
+      vars:
+        nginx_environment: dev
+        nginx_environment_message: "Hello from FinWebTech Dev!"
+        nginx_server_name: localhost
+        nginx_listen_port: 80

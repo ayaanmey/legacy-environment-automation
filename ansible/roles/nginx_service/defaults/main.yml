@@ -1,0 +1,16 @@
+---
+nginx_service_name: nginx
+nginx_package_name: nginx
+nginx_config_dir: /etc/nginx
+nginx_main_config_path: /etc/nginx/nginx.conf
+nginx_web_root: /usr/share/nginx/html
+
+nginx_worker_processes: auto
+nginx_worker_connections: 1024
+
+nginx_listen_port: 80
+nginx_server_name: localhost
+nginx_index_file: index.html
+
+nginx_environment: dev
+nginx_environment_message: "Hello from the FinWebTech Dev environment!"

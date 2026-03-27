@@ -1,0 +1,9 @@
+aws_region         = "us-east-1"
+ami_id             = "ami-09e973f123c32cf86"
+instance_type      = "t3.micro"
+subnet_id          = "subnet-050c2a873e881e616"
+security_group_ids = ["sg-05d43e6ca60b713e1"]
+key_name           = "finwebtech"
+instance_name      = "finwebtech-terraform-linux"
+environment        = "dev"
+owner              = "alex"
